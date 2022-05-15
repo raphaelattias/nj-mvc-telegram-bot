@@ -13,7 +13,7 @@ parser = ArgumentParser()
 parser.add_argument("--token", type=str, default=None, help="Your telegram bot API token, e.g: 0000000000:aaaaaaaaaaaaaaaaaa")
 parser.add_argument("--userid", type=str, default=None, help="Your personal telegram USER ID, e.g: 0000000000")
 parser.add_argument("--permit", type=str, default="knowledge", help="The test you want to pass, can be either 'knowledge' or 'initial'.")
-parser.add_argument('-f', action='append', default = ['Camden','West Deptford', 'Salem','Vineland','Cardiff', 'Rio Grande', 'Wayne', 'Toms River'], \
+parser.add_argument('-f', action='append', default = [], \
   help = "List of locations to filter. e.g: -f Camden -f West Deptford -f Salem")
 
 args = parser.parse_args()
@@ -22,6 +22,7 @@ USERID = args.userid
 PERMIT = args.permit
 filtered_locations = args.f
 
+#filtered_locations = ['Camden','West Deptford', 'Salem','Vineland','Cardiff', 'Rio Grande', 'Wayne', 'Toms River']
 if not TOKEN:
   TOKEN = input("token: ")
 if not USERID:
