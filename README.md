@@ -1,5 +1,5 @@
 # NJ MVC Telegram Bot
-Automated bot sending you the location of the earliest available slot for New Jersey DMV / MVC.
+Automated bot sending you the location of the earliest available slot for New Jersey DMV / MVC. Support both initial permit and knowledge test.
 
 # Installation
 ## Setting-up the environnement  
