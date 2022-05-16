@@ -27,5 +27,4 @@ def send_location(TOKEN, USERID, location):
 
   
 
-TOKEN = "5242096192:AAGMiI3pnjfdgTRM_mQEqV_2Svf5tlYxoOk"
-USERID = '1265420649'
+
